@@ -9,10 +9,10 @@ const Contains = () => {
           <p className="text-primary font-semibold text-2xl lg:text-[32px] pb-6 ">
             Why Us?
           </p>
-          <p className="text-[#F1F1F1] font-semibold text-3xl lg:text-[48px] max-w-[90%] ">
+          <p className="text-[#F1F1F1] font-semibold text-3xl lg:text-[45px] max-w-[90%] ">
             {" "}
-            Boost your business with{" "}
-            <span className="text-primary"> Fast </span> digital solutions.{" "}
+            Scale Faster with Intelligent,
+            <span className="text-primary"> Future-Ready </span> Digital Products.
           </p>
         </div>
 

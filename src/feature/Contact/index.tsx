@@ -38,7 +38,7 @@ const ContactPage = () => {
                         disablePictureInPicture
                       >
                         <source
-                          src="https://res.cloudinary.com/dreiyzj42/video/upload/v1763358126/sta_zgadz0.mp4"
+                          src="/video/spark-video.mp4"
                           type="video/mp4"
                         />
                         Your browser does not support the video tag.

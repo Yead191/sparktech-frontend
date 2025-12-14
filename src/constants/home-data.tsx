@@ -1,42 +1,42 @@
 import { PiHandshake, PiUsersThreeDuotone } from "react-icons/pi";
 import { FaLaptopCode, FaSmile } from "react-icons/fa";
-import {FaAward } from "react-icons/fa6";
+import { FaAward } from "react-icons/fa6";
 import { GiGlobe } from "react-icons/gi";
 import { BrainCircuit, ChartColumnBig } from "lucide-react";
 
 const members = [
-  { name: "Sarah Lee", img: "/assets/hero/members/user.jpg" },
-  { name: "Mithila Khan", img: "/assets/hero/members/mithila.jpg" },
-  { name: "Nadir Hossain", img: "/assets/hero/members/nadir.jpg" },
-  { name: "Asaduzzaman", img: "/assets/hero/members/asad.png" },
+  { name: "Sarah Lee", img: "/assets/hero/members/user1.jpg" },
+  { name: "Mithila Khan", img: "/assets/hero/members/user2.jpg" },
+  { name: "Nadir Hossain", img: "/assets/hero/members/user3.jpg" },
+  { name: "Asaduzzaman", img: "/assets/hero/members/user4.jpg" },
 ];
 const BoostBusinessData = [
   {
     title: "Average Revenue Growth",
-    value: "2x",
+    value: "2xReal Growth",
     description:
-      "Our knowledge and expertise are at your disposal to create a user-friendly products, acquire new customers.",
+      "Real Results. We don't just write software; we strategically engineer it to make a measurable difference on your bottom line and accelerate your growth.",
     icon: <ChartColumnBig />,
   },
   {
-    title: "Team Grout",
-    value: "600+",
+    title: "Team Growth",
+    value: "650+",
     description:
-      "Our knowledge and expertise are at your disposal to create a user-friendly products, acquire new customers.",
+      "Our Talent is Your Advantage. As our highly skilled team expands, we guarantee the dedicated capacity and consistent expertise needed to confidently scale your most ambitious projects.",
     icon: <PiUsersThreeDuotone className="" />,
   },
   {
     title: "Global Presence",
     value: "10+",
     description:
-      "Our knowledge and expertise are at your disposal to create a user-friendly products, acquire new customers.",
+      "Designing for Everyone. Our experience across 10+ global locations means we build intuitive, reliable platforms that truly connect with diverse users, wherever they are.",
     icon: <GiGlobe className="" />,
   },
   {
     title: "Talents Retained",
     value: "98%",
     description:
-      "Our knowledge and expertise are at your disposal to create a user-friendly products, acquire new customers.",
+      "Consistency You Can Trust. We invest deeply in our people. When you work with us, you benefit from stable teams and deep, long-term knowledge of your project.",
     icon: <BrainCircuit className="" />,
   },
 ];
@@ -45,7 +45,7 @@ const statsData = [
   {
     id: 1,
     icon: <PiHandshake />,
-    value: "1600+",
+    value: "2000+",
     title: "Clients",
   },
   {
@@ -108,7 +108,7 @@ const OurEvolutionData = [
       </div>
     ),
   },
-   {
+  {
     color: "#6D8F2B",
     children: (
       <div>

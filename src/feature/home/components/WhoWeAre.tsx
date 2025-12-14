@@ -21,9 +21,7 @@ const WhoWeAre = () => {
 
           <div className=" space-y-6">
             <p className=" text-[#D1D1D1] font-normal lg:text-xl max-w-xl">
-              We are a team of passionate creatives, skilled engineers, and
-              strategic thinkers united by a shared mission to craft digital
-              experiences
+              We are the Sparktech team: a collaborative group of engineers, designers, and strategists. We approach every challenge with empathy, united by a passion for building digital solutions that are intuitively human-centered, profoundly reliable, and expertly engineered to unlock your potential.
             </p>
             <button className=" flex items-center justify-center text-primary font-medium border border-primary py-4 px-6 rounded-full gap-1 hover:bg-primary hover:text-white transition-all duration-300">
               <span> View More </span>
@@ -46,7 +44,7 @@ const WhoWeAre = () => {
                   disablePictureInPicture
                 >
                   <source
-                    src="https://res.cloudinary.com/dreiyzj42/video/upload/v1763358126/sta_zgadz0.mp4"
+                    src="/video/spark-video.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.

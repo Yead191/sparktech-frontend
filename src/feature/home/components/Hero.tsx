@@ -16,9 +16,9 @@ export default function Hero() {
       <div className=" container mx-auto text-center space-y-8">
         <div className="space-y-4">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight max-w-[950px] mx-auto">
-            <span>Where Innovation Sparks </span>
+            <span>Empowering Business Growth Through Smart, </span>
             <span className="text-4xl md:text-5xl lg:text-7xl font-bold text-primary ">
-              Digital Excellence
+              Scalable Software.
             </span>
           </h1>
         </div>
@@ -44,7 +44,7 @@ export default function Hero() {
                   alt={m?.name}
                   className="border-2 border-white shadow-md hover:z-50 object-cover rounded-full h-10 w-10"
                 />
-
+                {/* 
                 <div
                   className="
                 absolute left-1/2 -translate-x-1/2 
@@ -55,7 +55,7 @@ export default function Hero() {
               "
                 >
                   {m.name}
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
@@ -71,7 +71,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-xs lg:text-sm font-semibold text-[#121212] text-nowrap">
-              125k+ Customer
+              2000+ Customers
             </p>
           </div>
         </div>
