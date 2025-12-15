@@ -16,13 +16,10 @@ const ContactPage = () => {
                 CONTACT US{" "}
               </p>
               <p className="section-title pb-6  text-start ">
-                {" "}
-                Let’s start the <br /> dialogue now!{" "}
+                Thinking about a new project? Let’s bring it to life.
               </p>
               <p className="section-subtitle text-start  ">
-                Are you ready to elevate your brand’s digital presence? I lead
-                an exceptional team of UX/UI designers, researchers, 3D artists,
-                and webmasters.
+                Are you ready to elevate your brand’s digital presence? I lead an exceptional team of UX/UI designers, researchers, 3D artists, software engineers, and web developers—ready to bring your vision to life.
               </p>
               <div className="h-[290px] w-full pt-10">
                 <div className="relative   rounded-2xl shadow-lg h-[290px]">

@@ -29,10 +29,10 @@ const DEFAULT_IMAGES: ImageItem[] = [
     designation: "Jr Frontend Developer",
   },
   {
-    src: "https://images.unsplash.com/photo-1755569309049-98410b94f66d?q=80&w=772&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "/assets/thumbnails/mahmud.png",
     alt: "Modern sculpture",
-    name: "Alice Smith",
-    designation: "Sculptor",
+    name: "Abdulllah Al Mahmud",
+    designation: "GM, Sales Department",
   },
   {
     src: "https://i.ibb.co.com/rfHkfHB3/517693226-2530034364005098-6571637773511387247-n.jpg",
@@ -47,10 +47,10 @@ const DEFAULT_IMAGES: ImageItem[] = [
     designation: "LF Member & Backend Developer",
   },
   {
-    src: "https://images.unsplash.com/photo-1755353985163-c2a0fe5ac3d8?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "/assets/thumbnails/shahariar.jpg",
     alt: "Contemporary art",
-    name: "Clara Lee",
-    designation: "Visual Artist",
+    name: "Shahariar Mohammad Hassan",
+    designation: "Sr. Senior Sales Executive",
   },
   {
     src: "https://i.ibb.co.com/jBsYrqv/Frame-2147238448.png",

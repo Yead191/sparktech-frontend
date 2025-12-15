@@ -13,13 +13,10 @@ export default function WhoWeAre() {
             Who We Are?
           </h1>
           <p className="section-subtitle text-[#D1D1D1]!">
-            We are a team of passionate creatives, skilled engineers, and
-            strategic thinkers united by a shared mission to craft digital
-            experiences With roots in both the United States and Bangladesh, our
-            global presence gives us diverse perspectives and a deep
-            understanding of modern digital needs. This blend of cultural
-            insight and technical expertise allows us to create solutions that
-            resonate with audiences worldwide.
+            Sparktech Agency is a forward-thinking digital partner committed to shaping the future of businesses through innovation and strategy.
+            We specialize in transforming ambitious ideas into impactful solutions bridging creativity with technology to deliver measurable results
+            With every project, we aim to create not just digital products, but long-term value for our clients and partners.
+
           </p>
         </div>
 

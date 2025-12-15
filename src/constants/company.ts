@@ -19,7 +19,7 @@ export const owners = [
   {
     name: "Rakibul Islam Shiku",
     role: " CTO",
-    imageUrl: "/assets/company/owners/shiku.png",
+    imageUrl: "/assets/thumbnails/shiku.png",
     bio: "Rakibul Islam, as Chief Technology Officer of Betopia Group, is the driving force behind the company’s technological innovation. With a sharp focus on scalability, security, and performance, he ensures that every product and solution is built to meet the challenges of tomorrow. His expertise in software architecture, product engineering, and digital ecosystems enables Betopia Group to deliver cutting-edge solutions that empower businesses globally. Rakibul’s leadership in technology reflects his commitment to building products that don’t just work for today, but evolve with the future.",
     slogan: "Engineering the Future, One Solution at a Time",
     company: "Sparktech Agency",

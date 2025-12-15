@@ -69,28 +69,14 @@ export default function OurStory() {
           </h1>
           <div className="space-y-8 text-gray leading-relaxed section-subtitle text-[#EBEBEB]! lg:text-lg!">
             <p>
-              We are a team of passionate creatives, skilled engineers, and
-              strategic thinkers united by a shared mission — to craft digital
-              experiences that deliver real results. Every project is approached
-              with innovation, precision, and a commitment to excellence.
+              <span className="font-medium">We are Sparktech, a proud concern of Betopia Group.</span> The agency was founded with the guiding hands of <span className="font-medium">Muhammad Monir Hossain (CEO, Betopia Group)</span> and <span className="font-medium">Rakibul Islam Shiku (Chief Technology Officer, Betopia Group)</span>, who served as the General Manager at the time of inception. Their vision immediately set a new milestone in the tech industry. Today, Sparktech is guided by our honorable <span className="font-medium">Farvez Hossain (General Manager, Sparktech Agency)</span>.
+
             </p>
             <p>
-              With roots in both the United States and Bangladesh, our global
-              presence gives us diverse perspectives and a deep understanding of
-              modern digital needs. This blend of cultural insight and technical
-              expertise allows us to create solutions that resonate with
-              audiences worldwide. We are a team of passionate creatives,
-              skilled engineers, and strategic thinkers united by a shared
-              mission — to craft digital experiences that deliver real results.
-              Every project is approached with innovation, precision, and a
-              commitment to excellence.
+              Our collective is dedicated to building reliable, scalable, and human-centered digital solutions engineered for the future. Our evolution began in <span className="font-medium">2023</span> with just <span className="font-medium">6 pioneering team members</span>, growing to  <span className="font-medium">48 specialized engineers by 2024</span>. Today, in <span className="font-medium">2025</span>, innovation defines us, with <span className="font-medium"> over 650 dedicated professionals</span> pushing boundaries and upholding the highest standards.
             </p>
             <p>
-              With roots in both the United States and Bangladesh, our global
-              presence gives us diverse perspectives and a deep understanding of
-              modern digital needs. This blend of cultural insight and technical
-              expertise allows us to create solutions that resonate with
-              audiences worldwide.
+              With deep roots in the United States and Bangladesh, our global presence is our strength, providing the cultural insight and technical expertise needed to engineer platforms that resonate worldwide and accelerate client growth.
             </p>
           </div>
         </div>
