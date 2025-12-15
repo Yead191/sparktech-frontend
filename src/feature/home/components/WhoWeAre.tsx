@@ -1,9 +1,7 @@
-
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 
 const WhoWeAre = () => {
-
   return (
     <div className=" min-h-screen w-full bg-linear-to-b from-[#041504] to-[#09320A]">
       <div className="container pt-20 pb-16 lg:pt-[140px] lg:pb-[73px]">
@@ -21,11 +19,17 @@ const WhoWeAre = () => {
 
           <div className=" space-y-6">
             <p className=" text-[#D1D1D1] font-normal lg:text-xl max-w-xl">
-              We are the Sparktech team: a collaborative group of engineers, designers, and strategists. We approach every challenge with empathy, united by a passion for building digital solutions that are intuitively human-centered, profoundly reliable, and expertly engineered to unlock your potential.
+              We are the Sparktech team: a collaborative group of engineers,
+              designers, and strategists. We approach every challenge with
+              empathy, united by a passion for building digital solutions that
+              are intuitively human-centered, profoundly reliable, and expertly
+              engineered to unlock your potential.
             </p>
             <button className=" flex items-center justify-center text-primary font-medium border border-primary py-4 px-6 rounded-full gap-1 hover:bg-primary hover:text-white transition-all duration-300">
               <span> View More </span>
-              <span><GoArrowRight size={24} /></span>
+              <span>
+                <GoArrowRight size={24} />
+              </span>
             </button>
           </div>
         </div>
@@ -44,7 +48,7 @@ const WhoWeAre = () => {
                   disablePictureInPicture
                 >
                   <source
-                    src="/video/spark-video.mp4"
+                    src="https://res.cloudinary.com/ds1njqypu/video/upload/v1765798184/spark-video_h0utyi.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.

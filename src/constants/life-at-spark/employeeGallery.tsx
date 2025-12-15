@@ -64,12 +64,7 @@ const DEFAULT_IMAGES: ImageItem[] = [
     name: "Asadur Rahaman Yead",
     designation: "Jr Frontend Developer",
   },
-  // {
-  //   src: "https://i.ibb.co.com/RTLhwdcY/Frame-2147238514-1.png",
-  //   alt: "Hasibul Hasan Shanto",
-  //   name: "Hasibul Hasan Shanto",
-  //   designation: "LF Member & Flutter Developer",
-  // },
+
   {
     src: "https://i.ibb.co.com/N2C3qLwJ/476160446-2158314191270526-2862639120188139429-n.jpg",
     alt: "Mostain",
@@ -82,6 +77,18 @@ const DEFAULT_IMAGES: ImageItem[] = [
     alt: "Asaduzzaman Mahfuz",
     name: "Asaduzzaman Mahfuz",
     designation: "Sr Ui/UX Designer",
+  },
+  {
+    src: "https://res.cloudinary.com/ds1njqypu/image/upload/v1765799209/shared_image_vlrzfz.jpg",
+    alt: "Hridoy Atik",
+    name: "Hridoy Atik",
+    designation: "Trainee Flutter Developer",
+  },
+  {
+    src: "https://res.cloudinary.com/dnallbxxa/image/upload/v1765798441/724468d4-ab12-4915-ac49-742b95190b8e_ymakhx.png",
+    alt: "Mahmud Hasan Sabbir",
+    name: "Mahmud Hasan Sabbir",
+    designation: "Frontend Developer",
   },
 ];
 export default DEFAULT_IMAGES;
