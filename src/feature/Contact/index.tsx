@@ -19,7 +19,10 @@ const ContactPage = () => {
                 Thinking about a new project? Let’s bring it to life.
               </p>
               <p className="section-subtitle text-start  ">
-                Are you ready to elevate your brand’s digital presence? I lead an exceptional team of UX/UI designers, researchers, 3D artists, software engineers, and web developers—ready to bring your vision to life.
+                Are you ready to elevate your brand’s digital presence? I lead
+                an exceptional team of UX/UI designers, researchers, 3D artists,
+                software engineers, and web developers—ready to bring your
+                vision to life.
               </p>
               <div className="h-[290px] w-full pt-10">
                 <div className="relative   rounded-2xl shadow-lg h-[290px]">
@@ -35,7 +38,7 @@ const ContactPage = () => {
                         disablePictureInPicture
                       >
                         <source
-                          src="/video/spark-video.mp4"
+                          src="https://res.cloudinary.com/ds1njqypu/video/upload/v1765798184/spark-video_h0utyi.mp4"
                           type="video/mp4"
                         />
                         Your browser does not support the video tag.
