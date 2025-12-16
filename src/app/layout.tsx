@@ -16,7 +16,8 @@ const poppins = Poppins({
 });
 export const metadata: Metadata = {
   title: "Sparktech Agency",
-  description: "A Betopia Company",
+  description:
+    "An Experience Design Agency focusing on building functional, simple, human-centered digital products for future.",
   icons: {
     icon: "/favicon.png",
   },

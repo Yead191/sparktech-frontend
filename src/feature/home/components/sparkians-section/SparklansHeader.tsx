@@ -8,8 +8,11 @@ export function SparklansHeader() {
         Meet the Sparks
       </h2>
       <p className="text-[#A3A3A3] ">
-        Every successful outcome begins with our people. These are the strategic architects and passionate collaborators who guide our clients' journey. They lead with vision and deliver with technical precision, ensuring every reliable, scalable, and human-centered solution transforms ambitious digital goals into reality.
-
+        Every successful outcome begins with our people. These are the strategic
+        architects and passionate collaborators who guide our clients' journey.
+        They lead with vision and deliver with technical precision, ensuring
+        every reliable, scalable, and human-centered solution transforms
+        ambitious digital goals into reality.
       </p>
     </div>
   );

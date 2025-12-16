@@ -1,4 +1,3 @@
-
 import { servicesData } from "@/constants/servicesData";
 import React from "react";
 import { ServiceSection } from "./ServiceSection";
@@ -27,7 +26,7 @@ export default function WhatWeDo() {
       {/* Add ClientGsap component dynamically here */}
       {servicesData?.map((service, index) => (
         <WhatWeDoAnimation
-          key={service.id} 
+          key={service.id}
           index={index}
           targetId={`service-section-${index}`}
           contentId={`content-${index}`}

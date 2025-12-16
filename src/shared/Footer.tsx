@@ -26,17 +26,24 @@ const Footer = () => {
   return (
     <footer className="bg-linear-to-b from-[#09320A] to-[#041504] ">
       <div className=" flex-center container w-full pb-12 lg:pb-24">
-        <Image src="/spark.png" width={1300} height={245} alt="logo" draggable={false} />
+        <Image
+          src="/spark.png"
+          width={1600}
+          height={645}
+          alt="logo"
+          draggable={false}
+          className="h-fit w-full object-contain"
+        />
       </div>
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col items-start  md:text-left ">
           <Image
             src="/fullLogo.png"
-            width={125}
-            height={44}
+            width={400}
+            height={100}
             draggable={false}
             alt="logo"
-            className=" pb-6 object-cover w-[140px]"
+            className=" pb-6 object-cover w-fit h-fit"
           />
           <p className=" max-w-[355px] text-[#F1F1F1] tracking-wide">
             An Experience Design Agency focusing on building functional, simple,
