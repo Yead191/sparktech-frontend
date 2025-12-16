@@ -35,13 +35,12 @@ export function TeamMemberCard({
       <video
         ref={onVideoRef}
         src={member.video}
-
         className={`w-full h-80 lg:h-[430px] object-cover object-top transition-opacity duration-300 ${
           isPlaying ? "opacity-100" : "opacity-0 hidden absolute"
         }`}
         autoPlay={isPlaying}
         onEnded={onVideoEnd}
-        muted={false} // ensure sound works
+        muted={false}
       />
 
       {!isPlaying && (
@@ -61,9 +60,12 @@ export function TeamMemberCard({
         }`}
       >
         {isPlaying ? (
-          <Pause size={28} className="text-white" />
+          <Pause
+            size={54}
+            className="text-white bg-white/40 p-4 rounded-full"
+          />
         ) : (
-          <Play size={28} className="text-white" />
+          <Play size={54} className="text-white bg-white/40 p-4 rounded-full" />
         )}
       </div>
 

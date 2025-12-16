@@ -34,18 +34,19 @@ const WhoWeAre = () => {
           </div>
         </div>
 
-        <div className="h-[500px] w-full pt-10">
-          <div className="relative   rounded-2xl shadow-lg h-[500px]">
-            <div className="relative rounded-2xl overflow-hidden bg-black aspect-video h-[500px] backdrop-blur-md w-full border border-transparent p-1.5">
+        <div className="lg:h-[500px] h-fit w-full pt-10">
+          <div className="relative   rounded-2xl shadow-lg lg:h-[500px]">
+            <div className="relative rounded-2xl overflow-hidden bg-black aspect-video lg:h-[500px] h-fit backdrop-blur-md w-full border border-transparent p-1.5">
               {/* Video background */}
               <div className="absolute inset-0">
                 <video
-                  className="w-full h-full lg:h-[500px] object-cover"
+                  className="w-full h-fit lg:h-[500px] object-cover "
                   autoPlay
                   loop
                   muted
                   playsInline
                   disablePictureInPicture
+                  draggable={false}
                 >
                   <source
                     src="https://res.cloudinary.com/ds1njqypu/video/upload/v1765798184/spark-video_h0utyi.mp4"

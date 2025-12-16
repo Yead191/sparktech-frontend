@@ -13,10 +13,12 @@ export default function WhoWeAre() {
             Who We Are?
           </h1>
           <p className="section-subtitle text-[#D1D1D1]!">
-            Sparktech Agency is a forward-thinking digital partner committed to shaping the future of businesses through innovation and strategy.
-            We specialize in transforming ambitious ideas into impactful solutions bridging creativity with technology to deliver measurable results
-            With every project, we aim to create not just digital products, but long-term value for our clients and partners.
-
+            Sparktech Agency is a forward-thinking digital partner committed to
+            shaping the future of businesses through innovation and strategy. We
+            specialize in transforming ambitious ideas into impactful solutions
+            bridging creativity with technology to deliver measurable results
+            With every project, we aim to create not just digital products, but
+            long-term value for our clients and partners.
           </p>
         </div>
 
@@ -25,8 +27,8 @@ export default function WhoWeAre() {
             src="/assets/company/our-story/img1.png"
             alt="Company"
             className="w-full h-full object-contain"
-            width={500}
-            height={500}
+            width={900}
+            height={900}
           />
         </div>
       </div>

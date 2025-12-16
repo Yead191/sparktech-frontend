@@ -36,6 +36,7 @@ export default function VideoAccordion() {
             width={900}
             className="object-cover h-full w-full"
             priority={true}
+            draggable={false}
           />
         </div>
 
