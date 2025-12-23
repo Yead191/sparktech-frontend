@@ -19,7 +19,8 @@ const SparkQuarter = () => {
     <section className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 h-full justify-center items-center py-16 lg:py-20">
       <QuarterText
         name={items[index]?.name}
-        quote={items[index]?.description}
+        quote={items[index]?.description} 
+        title={items[index]?.title}
       />
       <div className="relative w-full">
         <GreetingCard items={items} index={index} setIndex={setIndex} />

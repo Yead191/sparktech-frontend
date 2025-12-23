@@ -55,20 +55,6 @@ const WhoWeAre = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-
-              {/* Play/Pause button */}
-              {/* <div className="absolute inset-0 flex items-center justify-center">
-                <button
-                  onClick={togglePlay}
-                  className="w-20 h-20 bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 shadow-lg"
-                >
-                  {isPlaying ? (
-                    <Pause className="w-8 h-8 text-gray-800" />
-                  ) : (
-                    <Play className="w-8 h-8 text-gray-800 ml-1" />
-                  )}
-                </button>
-              </div> */}
             </div>
           </div>
         </div>

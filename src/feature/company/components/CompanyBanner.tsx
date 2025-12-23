@@ -25,7 +25,6 @@ const CompanyBanner = () => {
         <WhoWeAre />
         <OurStory />
       </div>
-      {/* rotating earth */}
       <RotatingEarthBg />
     </section>
   );
