@@ -79,10 +79,10 @@ const DEFAULT_IMAGES: ImageItem[] = [
     designation: "Sr Ui/UX Designer",
   },
   {
-    src: "https://res.cloudinary.com/ds1njqypu/image/upload/v1765799209/shared_image_vlrzfz.jpg",
-    alt: "Hridoy Atik",
-    name: "Hridoy Atik",
-    designation: "Trainee Flutter Developer",
+    src: "/dummy/khushi.png",
+    alt: "Khushi Akter",
+    name: "Khushi Akter",
+    designation: "Senior UI/UX Designer",
   },
   {
     src: "https://res.cloudinary.com/dnallbxxa/image/upload/v1765798441/724468d4-ab12-4915-ac49-742b95190b8e_ymakhx.png",

@@ -45,7 +45,7 @@ export default function OurStory() {
           <div className="grid grid-cols-11 gap-5 w-full">
             <Image
               draggable={false}
-              src={"/assets/company/our-story/img5.png"}
+              src={"/ourStory.JPG"}
               width={800}
               height={350}
               alt="Meeting"

@@ -7,9 +7,9 @@ export type Item = {
 
 export const accordionItems: Item[] = [
   {
-    title: "SPL Football Tournament",
+    title: "Sparktech Premier League",
     content:
-      "Think of us as your development talent pool on tap! We find the perfect developers, from juniors to full-stack pros, who integrate smoothly into your team. We support them every step of the way, ",
+      "The Sparktech Premier League (SPL) brings our talent pool on tap from keyboards to cleats. Just as we integrate top full-stack developers into client teams, SPL builds synergy and trust on the football field. This internal tournament refreshes our culture, helping our developers return to work energized, focused, and aligned—fueling the high-performance spirit that defines Sparktech.",
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
     thumbnail:
@@ -18,27 +18,27 @@ export const accordionItems: Item[] = [
   {
     title: "Annual Tour",
     content:
-      "A refreshing escape from the routine! Our annual tour brings the entire team together to explore new places, celebrate achievements, and create unforgettable memories—strengthening the bond beyond the workplace.",
+      "Step away from the screen and into the wild! Our annual tour is the ultimate reset button, trading deadlines for destinations. It’s a time to explore, celebrate our wins, and build friendships that go deeper than office walls. We don't just work together; we discover the world together.",
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
     thumbnail:
       "https://res.cloudinary.com/ds1njqypu/image/upload/v1763102920/WhatsApp_Image_2025-11-14_at_12.38.37_00a37fd7_fjwhti.jpg",
   },
   {
-    title: "Woman’s day calibration",
+    title: "Celebrating Our Leading Ladies",
     content:
-      "A heartfelt tribute to the incredible women of our organization. We celebrate their contributions, achievements, and strength with engaging activities, appreciation moments, and a vibrant atmosphere full of joy.",
+      "An empowering spotlight on the women who drive Sparktech forward. We honor their brilliance and resilience through a day of inspiration, recognition, and pure joy. It’s more than a celebration—it’s a heartfelt thank you for the strength and talent they bring to our team every single day.",
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
-    thumbnail: "https://res.cloudinary.com/ds1njqypu/image/upload/v1763102921/WhatsApp_Image_2025-11-14_at_12.38.37_03d1bccb_h4wnai.jpg",
+    thumbnail: "/leadingLadis.jpg",
   },
   {
-    title: "Townhall Party",
+    title: "The Sparks Townhall",
     content:
-      "A lively gathering where the whole team comes together to share updates, celebrate milestones, and enjoy a fun, collaborative environment. It’s a perfect mix of communication, recognition, and celebration.",
+      "Where the mission meets the party! Our Townhall is the heartbeat of our communication—a high-energy gathering to sync on goals, applaud every milestone, and soak in the collaborative spirit. We blend transparency with celebration, ensuring every voice is heard and every success is toasted. It’s not just a meeting; it’s our culture in motion.",
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
     thumbnail:
-      "https://i.ibb.co.com/dJ3KHF5j/554997310-122147916110886951-7860946218894689302-n.jpg",
+      "/townhall.JPG",
   },
 ];

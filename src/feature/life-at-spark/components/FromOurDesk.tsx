@@ -15,25 +15,25 @@ const FromOurDesk = () => {
       description:
         "SparkTech fuels innovation and collaboration. As a designer, I feel empowered to experiment, share ideas, and push creative boundaries. The team’s support and forward-thinking mindset make every project a chance to grow both personally and professionally.",
       imageUrl:
-        "https://res.cloudinary.com/dreiyzj42/image/upload/v1763282133/inspiring-new-boss-copy1-768x1147_3_qzzpmq.png",
+        "/dummy/nadir.png",
     },
     {
       id: 2,
-      name: "Mashrur Hasan Uthso",
-      designation: "Game Developer",
+      name: "Khushi Akter",
+      designation: "Ui Ux Designer",
       description:
-        "Working at SparkTech means being part of something dynamic. I’m constantly learning, experimenting with new strategies, and supported by a team that values growth, creativity, and results.",
+        "Working with Spark Tech Agency has been a great experience. The team values good design, user experience, and collaboration. Their process is organized, and they consistently deliver quality results.",
       imageUrl:
-        "https://res.cloudinary.com/dreiyzj42/image/upload/v1763282145/uthso_ulcwv5.png",
+        "/dummy/khushi.png",
     },
     {
       id: 3,
-      name: "Md. Emon",
+      name: "Md Amir Hamza Nirob",
       designation: "Graphic Designer",
       description:
-        "Working at SparkTech means being part of something dynamic. I’m constantly learning, experimenting with new strategies, and supported by a team that values growth, creativity, and results.",
+        "Proud to be a member of Sparktech! The energy here is unmatched, and our dedication to client success is what drives us every day. From the initial strategy to the final launch, we push the boundaries of what’s possible in tech. Highly recommend our services to anyone looking to scale their business.",
       imageUrl:
-        "https://res.cloudinary.com/dreiyzj42/image/upload/v1763282154/emon_sqjevd.png",
+        "/dummy/nirob.png",
     },
   ];
 
@@ -93,7 +93,7 @@ const FromOurDesk = () => {
                         alt={item.name}
                         width={450}
                         height={470}
-                        className="w-[200px] lg:w-full lg:h-full object-cover lg:object-contain lg:rounded-br-[60px]"
+                        className="w-[200px] lg:w-full lg:h-[450px] object-cover lg:object-contain lg:rounded-br-[60px]"
                         priority
                       />
                       {/* green gradient overlay */}
