@@ -22,11 +22,11 @@ export default function WhoWeAre() {
           </p>
         </div>
 
-        <div className="">
+        <div className=" ">
           <Image
-            src="/assets/company/our-story/img1.png"
+            src="https://res.cloudinary.com/ddmkqvphu/image/upload/v1766479864/CEO_Sir_Pic_bkpbij.jpg"
             alt="Company"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain rounded-3xl p-1 transition-all duration-300 hover:scale-100"
             width={900}
             height={900}
           />

@@ -17,7 +17,7 @@ export default function OurStory() {
             />
             <Image
               draggable={false}
-              src={"/assets/company/our-story/img1.png"}
+              src={"https://res.cloudinary.com/ddmkqvphu/image/upload/v1766479863/526773690_122141857550797982_1268198363124784704_n_waycqg.jpg"}
               width={1000}
               height={350}
               alt="Meeting"

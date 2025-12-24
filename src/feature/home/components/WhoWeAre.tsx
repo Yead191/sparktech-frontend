@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 
@@ -25,12 +26,15 @@ const WhoWeAre = () => {
               are intuitively human-centered, profoundly reliable, and expertly
               engineered to unlock your potential.
             </p>
-            <button className=" flex items-center justify-center text-primary font-medium border border-primary py-4 px-6 rounded-full gap-1 hover:bg-primary hover:text-white transition-all duration-300">
-              <span> View More </span>
-              <span>
-                <GoArrowRight size={24} />
-              </span>
-            </button>
+            <div className="flex items-center justify-start">
+
+              <Link href="/company" className=" flex items-center justify-center text-primary font-medium border border-primary py-4 px-6 rounded-full gap-1 hover:bg-primary hover:text-white transition-all duration-300 cursor-pointer">
+                <span> View More </span>
+                <span>
+                  <GoArrowRight size={24} />
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
 
