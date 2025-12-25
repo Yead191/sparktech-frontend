@@ -85,6 +85,12 @@ const DEFAULT_IMAGES: ImageItem[] = [
     designation: "Senior UI/UX Designer",
   },
   {
+    src: "https://res.cloudinary.com/dsxkxo9zl/image/upload/v1766655715/565703184_4277408822578873_474492462293572835_n_klygz5.jpg",
+    alt: "Md Azizul Haque",
+    name: "Md Azizul Haque",
+    designation: "Backend Developer",
+  },
+  {
     src: "https://res.cloudinary.com/dnallbxxa/image/upload/v1765798441/724468d4-ab12-4915-ac49-742b95190b8e_ymakhx.png",
     alt: "Mahmud Hasan Sabbir",
     name: "Mahmud Hasan Sabbir",

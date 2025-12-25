@@ -50,7 +50,8 @@ export const servicesData: ServiceSection[] = [
     id: "game-dev-1",
     icon: <BiLogoVisualStudio />,
     title: "AI/ML Development",
-    description: "Our team provides smart, data-driven solutions powered by Artificial Intelligence and Machine Learning. These services are designed to turn complex data sets into actionable business insights. We develop intelligent tools, automation systems, and predictive models that empower businesses to make smarter, more informed decisions.",
+    description:
+      "Our team provides smart, data-driven solutions powered by Artificial Intelligence and Machine Learning. These services are designed to turn complex data sets into actionable business insights. We develop intelligent tools, automation systems, and predictive models that empower businesses to make smarter, more informed decisions.",
     ctaText: "View more",
     layout: "image-right",
     images: [
@@ -128,7 +129,7 @@ export const servicesData: ServiceSection[] = [
     ],
   },
   {
-    id: "app-dev-1",
+    id: "app-dev-2",
     icon: <BiLogoVisualStudio />,
     title: "CMS Development",
     description:
@@ -154,7 +155,7 @@ export const servicesData: ServiceSection[] = [
     ],
   },
   {
-    id: "app-dev-1",
+    id: "app-dev-3",
     icon: <BiLogoVisualStudio />,
     title: "UI/UX Design",
     description:
@@ -180,7 +181,7 @@ export const servicesData: ServiceSection[] = [
     ],
   },
   {
-    id: "app-dev-1",
+    id: "app-dev-4",
     icon: <BiLogoVisualStudio />,
     title: "Digital Marketing",
     description:
@@ -206,7 +207,7 @@ export const servicesData: ServiceSection[] = [
     ],
   },
   {
-    id: "app-dev-1",
+    id: "app-dev-5",
     icon: <BiLogoVisualStudio />,
     title: "Software Architecture",
     description:
