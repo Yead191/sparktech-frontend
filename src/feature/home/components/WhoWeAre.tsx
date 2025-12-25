@@ -22,9 +22,9 @@ const WhoWeAre = () => {
         pin: true,
       },
       {
-        scale: 1.2,
+        scale: 1.3,
         borderRadius: "16px",
-        ease: "none",
+        ease: "power2.out",
         scrollTrigger: {
           trigger: videoWrapperRef.current,
           start: "50% 50%",
@@ -45,13 +45,13 @@ const WhoWeAre = () => {
 
   return (
     <div className="min-h-screen w-full bg-linear-to-b from-[#041504] to-[#09320A]">
-      <div className="container pt-20 pb-16 lg:pt-[140px] lg:pb-[73px]">
-        <div className="flex flex-col md:flex-row items-start justify-between gap-6">
+      <div className=" pt-20 pb-16 lg:pt-[140px] lg:pb-[73px]">
+        <div className="container flex flex-col md:flex-row items-start justify-between gap-6">
           <div>
             <p className="text-[32px] font-semibold text-primary pb-6">
               Sparktech
             </p>
-            <p className="section-title font-bold text-[#FDFDFD]">
+            <p className="section-title font-bold text-[#FDFDFD]!">
               Who We Are?
             </p>
           </div>
@@ -75,7 +75,7 @@ const WhoWeAre = () => {
         </div>
 
         {/* VIDEO SECTION */}
-        <div className=" w-full py-10">
+        <div className="container w-full py-10">
           <div
             ref={videoWrapperRef}
             className="relative w-full h-full overflow-hidden bg-black rounded-2xl"
