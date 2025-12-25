@@ -38,7 +38,7 @@ export default function WhatWeDoRight({
             <img
               src={activeService.backgroundImage || "/placeholder.svg"}
               alt={activeService.title}
-              className="w-full h-[60%] lg:h-[70%] 2xl:h-[80%] object-contain animate-rotate360"
+              className="w-full h-[60%] lg:h-[80%] 2xl:h-[700px] object-contain animate-rotate3d"
             />
           </div>
         )}

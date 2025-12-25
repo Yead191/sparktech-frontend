@@ -94,13 +94,30 @@ body {
   }
 }
 
-@keyframes rotate360 {
+/* @keyframes rotate360 {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-180deg);
   }
+} */
+
+@keyframes rotate3D {
+  0% {
+    transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(1000px) rotateY(180deg) rotateX(10deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg) rotateX(0deg);
+  }
+}
+
+.animate-rotate3d {
+  animation: rotate3D 18s linear infinite;
+  transform-style: preserve-3d;
 }
 
 @layer utilities {
