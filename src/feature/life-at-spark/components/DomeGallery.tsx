@@ -704,7 +704,7 @@ export default function DomeGallery({
       frameR.left - mainR.left
     }px; top:${frameR.top - mainR.top}px; width:${frameR.width}px; height:${
       frameR.height
-    }px; opacity:0; z-index:30; will-change:transform,opacity; transform-origin:top left; transition:transform ${enlargeTransitionMs}ms ease, opacity ${enlargeTransitionMs}ms ease; border-radius:${openedImageBorderRadius}; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,.35);`;
+    }px; opacity:0; z-index:30; will-change:transform,opacity; transform-origin:top left; transition:transform ${enlargeTransitionMs}ms ease, opacity ${enlargeTransitionMs}ms ease; border-radius:${openedImageBorderRadius}; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,.35); background: #e5e7eb; `;
     const rawSrc =
       parent.dataset.src ||
       (el.querySelector("img") as HTMLImageElement)?.src ||
@@ -732,6 +732,7 @@ export default function DomeGallery({
   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
   display: flex;
   flex-direction: column;
+
 `;
 
     info.innerHTML = `

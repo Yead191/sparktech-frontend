@@ -51,7 +51,7 @@ const WhoWeAre = () => {
             <p className="text-[32px] font-semibold text-primary pb-6">
               Sparktech
             </p>
-            <p className="section-title font-bold text-[#FDFDFD]">
+            <p className="section-title font-bold text-[#FDFDFD]!">
               Who We Are?
             </p>
           </div>
