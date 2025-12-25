@@ -34,11 +34,10 @@ export default function ServiceCarousel({
             }}
           >
             <h3
-              className={` tracking-wide transition-all duration-300 ${
-                isActive
+              className={` tracking-wide transition-all duration-300 ${isActive
                   ? "text-2xl lg:text-3xl 2xl:text-4xl text-[#606060] font-semibold"
                   : "text-lg lg:text-xl 2xl:text-2xl text-[#A3A3A3]/70 hover:text-foreground/70"
-              }`}
+                }`}
             >
               {service.title.toUpperCase()}
             </h3>
@@ -48,3 +47,4 @@ export default function ServiceCarousel({
     </div>
   );
 }
+// fsdfs
