@@ -30,14 +30,15 @@ export default function ServiceCarousel({
             onMouseLeave={() => setIsAutoPlay(true)}
             className="cursor-pointer"
             style={{
-              animation: `slideUp 0.5s ease-out ${index * 0.05}s both`,
+              animation: `slideUp 0.5s ease-out ${index * 0.08}s both`,
             }}
           >
             <h3
-              className={` tracking-wide transition-all duration-300 ${isActive
+              className={` tracking-wide transition-all duration-300 ${
+                isActive
                   ? "text-2xl lg:text-3xl 2xl:text-4xl text-[#606060] font-semibold"
                   : "text-lg lg:text-xl 2xl:text-2xl text-[#A3A3A3]/70 hover:text-foreground/70"
-                }`}
+              }`}
             >
               {service.title.toUpperCase()}
             </h3>
