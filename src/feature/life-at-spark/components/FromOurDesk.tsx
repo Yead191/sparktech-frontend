@@ -14,8 +14,7 @@ const FromOurDesk = () => {
       designation: "Sr. Full-Stack Developer",
       description:
         "SparkTech fuels innovation and collaboration. As a designer, I feel empowered to experiment, share ideas, and push creative boundaries. The team’s support and forward-thinking mindset make every project a chance to grow both personally and professionally.",
-      imageUrl:
-        "/dummy/nadir.png",
+      imageUrl: "/dummy/nadir.png",
     },
     {
       id: 2,
@@ -23,8 +22,7 @@ const FromOurDesk = () => {
       designation: "Ui Ux Designer",
       description:
         "Working with Spark Tech Agency has been a great experience. The team values good design, user experience, and collaboration. Their process is organized, and they consistently deliver quality results.",
-      imageUrl:
-        "/dummy/khushi.png",
+      imageUrl: "/dummy/khushi.png",
     },
     {
       id: 3,
@@ -32,8 +30,7 @@ const FromOurDesk = () => {
       designation: "Graphic Designer",
       description:
         "Proud to be a member of Sparktech! The energy here is unmatched, and our dedication to client success is what drives us every day. From the initial strategy to the final launch, we push the boundaries of what’s possible in tech. Highly recommend our services to anyone looking to scale their business.",
-      imageUrl:
-        "/dummy/nirob.png",
+      imageUrl: "/dummy/Nirob.png",
     },
   ];
 

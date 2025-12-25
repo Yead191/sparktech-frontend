@@ -3,6 +3,7 @@
 import { Service } from "@/constants/services";
 import { useEffect, useState } from "react";
 import ServiceCarousel from "./ServiceCarousel";
+import Image from "next/image";
 
 interface WhatWeDoRightProps {
   services: Service[];
@@ -35,7 +36,9 @@ export default function WhatWeDoRight({
             key={activeService.id}
             className="absolute inset-0 flex items-center justify-center opacity-50 animate-slideInFromRight"
           >
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={activeService.backgroundImage || "/placeholder.svg"}
               alt={activeService.title}
               className="w-full h-[60%] lg:h-[80%] 2xl:h-[700px] object-contain animate-rotate3d"
