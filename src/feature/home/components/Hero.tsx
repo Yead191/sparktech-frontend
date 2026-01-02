@@ -10,7 +10,6 @@ export default function Hero() {
     >
       {/* Content Wrapper */}
       <div className=" container mx-auto text-center space-y-8">
-
         {/* Background Video (behind content only) */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-[220px] h-[220px] md:w-[300px] md:h-[800px] lg:w-[960px] lg:h-[760px]">
@@ -19,7 +18,7 @@ export default function Hero() {
               loop
               muted
               playsInline
-              className="w-full h-full object-cover "
+              className="w-full h-full object-cover lg:object-contain 2xl:object-cover"
             >
               <source src="/video/STA_Logo.mp4" type="video/mp4" />
             </video>
@@ -28,9 +27,9 @@ export default function Hero() {
 
         {/* Text */}
         <div className="space-y-4 z-20 relative">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight max-w-[950px] mx-auto">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight max-w-[950px] mx-auto 2xl:tracking-wider">
             <span>Empowering Business Growth Through Smart, </span>
-            <span className="text-primary">Scalable Software.</span>
+            <span className="text-primary">Scalable Software</span>
           </h1>
         </div>
 
