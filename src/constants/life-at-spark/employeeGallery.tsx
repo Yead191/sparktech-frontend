@@ -56,8 +56,8 @@ const DEFAULT_IMAGES: ImageItem[] = [
   {
     src: "https://i.ibb.co.com/jBsYrqv/Frame-2147238448.png",
     alt: "Rafsan ",
-    name: "David Brown",
-    designation: "Pattern Designer",
+    name: "Rafsan Hossain Opi",
+    designation: "Lead Software Engineer",
   },
   {
     src: "https://i.ibb.co.com/FqzSsdfj/580512431-4116207195308135-3270780407261229590-n.jpg",
