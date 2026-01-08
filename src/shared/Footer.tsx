@@ -75,22 +75,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="container md:pt-8 pt-12">
-          <a
-            href="/pdf/company-desk.pdf"
-            download
-            className="group flex items-center gap-4 cursor-pointer"
-          >
-            <div className="w-12 h-12 rounded-full bg-[#9ACA3C] flex items-center justify-center transition-transform group-hover:scale-110">
-              <Download className="text-black w-5 h-5" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-white font-light md:text-xl text-lg underline decoration-1 underline-offset-4 decoration-white">Company Deck</span>
-              <span className="text-[#8EA18E] md:text-lg text-sm pt-1">PDF, 3MB</span>
-            </div>
-          </a>
-        </div>
-        <div className=" flex-center  w-full md:h-[350px] h-[150px] px-0 ">
+
+        <div className=" flex-center  w-full md:h-[350px] h-[150px] px-0 md:pt-8 pt-12 ">
           <Image
             src="/spark.png"
             width={1400}
@@ -100,8 +86,21 @@ const Footer = () => {
             className="h-full w-full object-cover"
           />
         </div>
-        <div className="container">
-          <div className="flex justify-end ">
+        <div className="container pt-5">
+          <div className="flex justify-between items-center ">
+            <a
+              href="/pdf/company-desk.pdf"
+              download
+              className="group flex items-center gap-4 cursor-pointer"
+            >
+              <div className="w-12 h-12 rounded-full bg-[#9ACA3C] flex items-center justify-center transition-transform group-hover:scale-110">
+                <Download className="text-black w-5 h-5" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-white font-light md:text-xl text-lg underline decoration-1 underline-offset-4 decoration-white">Company Deck</span>
+                <span className="text-[#8EA18E] md:text-lg text-sm pt-1">PDF, 3MB</span>
+              </div>
+            </a>
             <p> <Upbutton /></p>
           </div>
           <div className="mt-5 pt-3 border-t border-white/10 flex  justify-center items-center gap-4">

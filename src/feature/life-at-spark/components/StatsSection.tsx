@@ -56,13 +56,13 @@ export default function StatsSection() {
             }}
             data-value={item.value}
             data-suffix={item.suffix}
-            className="text-2xl lg:text-[32px] font-semibold text-[#414141]"
+            className="text-2xl lg:text-[32px] font-semibold text-[#999999]"
           >
             0
           </div>
 
           {/* Label */}
-          <p className="mt-2 text-[#414141] text-xs lg:text-base">{item.label}</p>
+          <p className="mt-2 text-[#999999] text-xs lg:text-base">{item.label}</p>
         </div>
       ))}
     </section>

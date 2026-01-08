@@ -11,6 +11,8 @@ export default function LifeAtSpark() {
     <section>
       <PageBanner
         title="Life at Spark"
+        isPrimary={false} 
+        isBG={true}
         subtitle="Be part of something great , where every spark of creativity helps build something extraordinary."
         children={<StatsSection />}
       />

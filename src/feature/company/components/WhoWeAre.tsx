@@ -24,7 +24,7 @@ export default function WhoWeAre() {
 
         <div className=" ">
           <Image
-            src="https://res.cloudinary.com/ddmkqvphu/image/upload/v1766479864/CEO_Sir_Pic_bkpbij.jpg"
+            src="/companyBanner.JPG"
             alt="Company"
             className="w-full h-full object-contain rounded-3xl p-1 transition-all duration-300 hover:scale-100"
             width={900}

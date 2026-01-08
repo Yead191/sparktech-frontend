@@ -2,16 +2,19 @@
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
+import RotatingEarthBg from "./RotatingEarthBg";
 
 interface serviceBannerProps {
-  isPrimary?: boolean;
+  isPrimary?: boolean; 
+  isBG?: boolean;
   title: string;
   subtitle: string;
   children?: React.ReactNode;
 }
 
 export default function PageBanner({
-  isPrimary = false,
+  isPrimary = false, 
+  isBG = false,
   title,
   subtitle,
   children = null,
@@ -31,8 +34,8 @@ export default function PageBanner({
 
   return (
     <section
-      className={`min-h-[70vh] 2xl:min-h-[70vh] px-4  ${
-        isPrimary ? "bg-spark" : "bg-[#EFEDF0]"
+      className={`relative min-h-[70vh] 2xl:min-h-[70vh] px-4  ${
+        isPrimary || isBG ? "bg-spark" : "bg-[#EFEDF0]"
       } flex flex-col justify-center ${
         children ? "lg:pt-16" : "pt-0"
       } items-center  text-center   lg:rounded-b-[90px]  relative overflow-hidden z-10`}
@@ -40,7 +43,7 @@ export default function PageBanner({
       <div className="z-10 bg-transparent">
         <h1
           className={`${
-            isPrimary ? "text-[#FDFDFD]" : "text-[#121212]"
+            isPrimary || isBG ? "text-[#FDFDFD]" : "text-[#121212]"
           } font-semibold text-4xl md:text-5xl 2xl:text-[64px] mb-6`}
         >
           {title}
@@ -66,6 +69,18 @@ export default function PageBanner({
           {/* Black gradient overlay */}
           <div className="absolute bottom-0 left-0 w-full h-56 pointer-events-none z-10 bg-linear-to-t from-[#041504] to-transparent"></div>
         </>
+      )} 
+
+      {isBG && ( 
+              <div className="absolute top-[43%] flex items-end justify-center">
+        <div className="w-full h-full rounded-full animate-spin-slow">
+          <img
+            src="/earth.png"
+            alt="Earth Background"
+            className="w-full h-full object-cover rounded-full"
+          />
+        </div>
+      </div>
       )}
     </section>
   );

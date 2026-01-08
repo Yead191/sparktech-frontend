@@ -11,6 +11,8 @@ export default function CareerPageMain() {
     <section>
       <PageBanner
         title="Grow with Sparktech"
+        isPrimary={false}
+        isBG={true}
         subtitle="Become a part of our team and help shape the future of technology. We're seeking passionate, creative committed individuals for the following positions."
       />
       <BenefitsSection />
