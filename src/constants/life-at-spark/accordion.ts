@@ -22,7 +22,7 @@ export const accordionItems: Item[] = [
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
     thumbnail:
-      "https://res.cloudinary.com/ds1njqypu/image/upload/v1763102920/WhatsApp_Image_2025-11-14_at_12.38.37_00a37fd7_fjwhti.jpg",
+      "https://res.cloudinary.com/dsxkxo9zl/image/upload/v1766654609/520440583_122125011374886951_4385111121235820957_n_rmcpnc.jpg",
   },
   {
     title: "Celebrating Our Leading Ladies",
