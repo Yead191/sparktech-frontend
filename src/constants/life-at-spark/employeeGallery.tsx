@@ -98,10 +98,16 @@ const DEFAULT_IMAGES: ImageItem[] = [
     designation: "Backend Developer",
   },
   {
-    src: "https://res.cloudinary.com/dnallbxxa/image/upload/v1765798441/724468d4-ab12-4915-ac49-742b95190b8e_ymakhx.png",
+    src: "https://res.cloudinary.com/divbwqpao/image/upload/v1769057086/sabbirsImage_lk7hnw.png",
     alt: "Mahmud Hasan Sabbir",
     name: "Mahmud Hasan Sabbir",
     designation: "Frontend Developer",
+  },
+  {
+    src: "https://res.cloudinary.com/dabd4udau/image/upload/v1769056794/aqjn9ue6odd54mrzcmm3.jpg",
+    alt: "MD Abdur Razzak Rakib",
+    name: "MD Abdur Razzak Rakib",
+    designation: "Backend Developer",
   },
 ];
 export default DEFAULT_IMAGES;
