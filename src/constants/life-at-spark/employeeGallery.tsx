@@ -91,12 +91,7 @@ const DEFAULT_IMAGES: ImageItem[] = [
     name: "Md Azizul Haque",
     designation: "Backend Developer",
   },
-  {
-    src: "https://res.cloudinary.com/dsxkxo9zl/image/upload/v1766726345/582485080_2075645029858833_1474788888560302039_n_t5fxlo.jpg",
-    name: "Engr. Md Shariful Islam",
-    alt: "Engr. Md Shariful Islam",
-    designation: "Backend Developer",
-  },
+
   {
     src: "https://res.cloudinary.com/divbwqpao/image/upload/v1769057086/sabbirsImage_lk7hnw.png",
     alt: "Mahmud Hasan Sabbir",
@@ -107,6 +102,12 @@ const DEFAULT_IMAGES: ImageItem[] = [
     src: "https://res.cloudinary.com/dabd4udau/image/upload/v1769056794/aqjn9ue6odd54mrzcmm3.jpg",
     alt: "MD Abdur Razzak Rakib",
     name: "MD Abdur Razzak Rakib",
+    designation: "Backend Developer",
+  },
+  {
+    src: "https://res.cloudinary.com/dsxkxo9zl/image/upload/v1766726345/582485080_2075645029858833_1474788888560302039_n_t5fxlo.jpg",
+    name: "Engr. Md Shariful Islam",
+    alt: "Engr. Md Shariful Islam",
     designation: "Backend Developer",
   },
 ];
