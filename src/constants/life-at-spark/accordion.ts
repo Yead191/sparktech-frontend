@@ -13,7 +13,7 @@ export const accordionItems: Item[] = [
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
     thumbnail:
-      "https://res.cloudinary.com/ds1njqypu/image/upload/v1763102922/WhatsApp_Image_2025-11-14_at_12.38.37_acdf6d94_otlbb4.jpg",
+      "https://res.cloudinary.com/dsxkxo9zl/image/upload/v1766654614/573592015_122157660830886951_2933159187029705830_n_ri8lgj.jpg",
   },
   {
     title: "Annual Tour",
@@ -38,7 +38,6 @@ export const accordionItems: Item[] = [
       "Where the mission meets the party! Our Townhall is the heartbeat of our communication—a high-energy gathering to sync on goals, applaud every milestone, and soak in the collaborative spirit. We blend transparency with celebration, ensuring every voice is heard and every success is toasted. It’s not just a meeting; it’s our culture in motion.",
     video:
       "https://res.cloudinary.com/ds1njqypu/video/upload/v1763377312/Video_Compressor___Reduce_Video_File_Size_Online_e3l3jn.mp4",
-    thumbnail:
-      "/townhall.JPG",
+    thumbnail: "/townhall.JPG",
   },
 ];
